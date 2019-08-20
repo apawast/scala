@@ -33,7 +33,7 @@ jobs:
       echo 'TRIGGERSCALADIST -----------------------------------------------'
     workingDirectory: $(Build.SourcesDirectory)
     displayName: 'Running bootstrap scripts'
-
+add
 
 # - job: PR_Build
 #   condition: condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
