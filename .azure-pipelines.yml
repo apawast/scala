@@ -15,7 +15,7 @@ jobs:
   steps:
   - bash: bash -x init.sh
     workingDirectory: $(Build.SourcesDirectory)/admin  
-    displayName: 'Run init.sh'
+    displayName: 'Running init.sh'
 
   - bash: |
       source ./scripts/common
