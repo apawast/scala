@@ -30,7 +30,7 @@ jobs:
       buildQuick
       echo 'BUILDQUICK DONE -----------------------------------------------------'
       triggerScalaDist
-      echo 'TRIGGERSCALADIST DONE -----------------------------------------------'
+      echo 'TRIGGERSCALADIST -----------------------------------------------'
     workingDirectory: $(Build.SourcesDirectory)
     displayName: 'Run bootstrap scripts'
 
