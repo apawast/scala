@@ -32,7 +32,7 @@ jobs:
       triggerScalaDist
       echo 'TRIGGERSCALADIST -----------------------------------------------'
     workingDirectory: $(Build.SourcesDirectory)
-    displayName: 'Run bootstrap scripts'
+    displayName: 'Running bootstrap scripts'
 
 
 # - job: PR_Build
